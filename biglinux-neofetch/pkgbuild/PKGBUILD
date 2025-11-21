@@ -1,15 +1,15 @@
 # Maintainer: Barnabé <barnabedikartola@gmail.com>
 
 pkgname=biglinux-neofetch
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=23.10.03
+pkgrel=2226
 pkgdesc="A CLI system information tool written in BASH that supports displaying images."
 arch=('any')
 url="https://github.com/biglinux/$pkgname"
 license=('MIT')
 # depends=('')
 provides=("$pkgname")
-source=("git+${url}.git")
+source=("git+${url}.git#branch=stable-2023-10-03")
 sha256sums=('SKIP')
 
 
